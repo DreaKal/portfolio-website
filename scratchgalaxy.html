@@ -33,6 +33,10 @@
         animation: twinkle 8s infinite linear;
         }
 
+        image-star{
+            border-image: fill 0 linear-gradient(#0003, #000);
+        }
+
         .shooting-star {
         position: absolute;
         width: 100px;
@@ -105,7 +109,7 @@
     
     <body>
         <style>
-        .cursor {
+            .cursor {
             font-family: Arial;
             position: relative;
             width: 20em;
@@ -123,6 +127,7 @@
             typewriter 3s steps(50) 1s 1 normal both, 
             blinkingCursor 300ms steps(30) infinite normal;
         }
+
         @keyframes typewriter {
         from { width: 0; }
         to { width: 59%; }
@@ -139,7 +144,6 @@
             font-family: 'Anonymous Pro', monospace;
             background-color: #673ab7; 
         }
-
         </style>
             <h1 class="cursor typewriter-animation">Hi, Im Vincent Bernaldo</h1>
     </body>
